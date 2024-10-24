@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
     res.send({ message: 'Welcome' });
 });
 
-
 // Start the server
 app.listen(PORT, () => {
     console.log(`App is listening on port ${PORT}`);
